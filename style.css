@@ -1,0 +1,80 @@
+html,
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0 0;
+}
+
+.Main-box {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+.Title {
+  text-align: center;
+  font-size: 30px;
+}
+.Main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 25px auto;
+  gap: 100px;
+}
+#Screen {
+  display: flex;
+  align-items: center;
+}
+.Setup {
+  display: flex;
+  margin: auto auto;
+  text-align: center;
+  flex-direction: column;
+  gap: 15px;
+}
+h1 {
+  align-self: start;
+}
+h2 {
+  border-style: solid;
+  border-width: 1px;
+  text-align: center;
+
+  font-size: 15px;
+  padding: 5px 5px;
+}
+.p5Canvas {
+  display: block;
+  margin: auto auto;
+  outline: rgba(29, 29, 29, 0.541) 2.5px solid;
+}
+.Setup button {
+  display: inline-block;
+  width: 150px;
+  font-size: 15px;
+}
+.matrix-input {
+  flex-shrink: 1;
+  width: 150px;
+  font-size: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.matrix-input input {
+  font-size: 15px;
+  width: 100%;
+  text-align: center;
+}
+.matrix-input-box {
+  border-style: solid;
+  border-width: 2px;
+}
+.Place.state-on {
+  background-color: rgb(209, 209, 209);
+}
+.Place {
+  border-radius: 5px;
+  padding: 5px 5px;
+}

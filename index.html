@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <script defer src="libraries/p5.min.js"></script>
+    <script defer src="libraries/p5.sound.min.js"></script>
+    <script defer src="matrix.js"></script>
+    <script defer src="player.js"></script>
+    <script defer src="dummy.js"></script>
+    <script defer src="reddummy.js"></script>
+    <script defer src="whitedummy.js"></script>
+    <script defer src="wall.js"></script>
+    <script defer src="logic.js"></script>
+    <script defer src="sketch.js"></script>
+    <script defer src="UI.js"></script>
+    <script defer src="whitescorpion.js"></script>
+    <script defer src="redscorpion.js"></script>
+    <script defer src="boobytrap.js"></script>
+  </head>
+
+  <body>
+    <div class="Main-box">
+      <h1 class="Title">MUMMY MAZE DELUXE SOLVER</h1>
+      <div class="Main">
+        <div id="Screen"></div>
+        <div class="Setup">
+          <div class="matrix-input">
+            <p style="margin-right: 30px">Matrix size :</p>
+            <input class="matrix-input-box" />
+          </div>
+          <button class="Place player" data-state="1">Place player</button>
+          <button class="Place escape" data-state="2">Place escape</button>
+          <button class="Place wall" data-state="3">Add/Remove wall</button>
+          <button class="Place white-mummy" data-state="4">
+            Add white mummy
+          </button>
+          <button class="Place red-mummy" data-state="5">Add red mummy</button>
+          <button class="Place wscorpion-mummy" data-state="6">
+            Add white scorpion
+          </button>
+          <button class="Place rscorpion-mummy" data-state="7">
+            Add red scorpion
+          </button>
+          <button class="Place boobytrap" data-state="8">Add booby trap</button>
+          <button class="Place keyandfence" data-state="9">
+            Add key and fence
+          </button>
+          <button class="clearD" data-state="10">Clear dummys</button>
+        </div>
+      </div>
+      <h2 class="ans">Press "m" to solve the maze</h2>
+    </div>
+  </body>
+</html>
