@@ -22,7 +22,7 @@ class matrix {
     for (let i = 0; i < this.row; i++) {
       for (let j = 0; j < this.col; j++) {
         strokeWeight(0.4);
-        stroke(100);
+        stroke(51);
         fill(255, 255, 255);
         rect(
           this.H * (j / this.col),

@@ -111,7 +111,7 @@ function drawstate() {
     fill(248, 248, 255, 70);
   }
   if (Stateofinput == 5) {
-    fill(240, 128, 128);
+    fill(240, 128, 128, 70);
   }
   if (Stateofinput == 6) {
     fill(248, 248, 255, 70);
